@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:apple-keyboard-option$$
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -42,13 +42,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:backspace$$', h: Fn}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-esc$$
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -191,10 +191,10 @@ layers:
   - SCROLLLOCK
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
