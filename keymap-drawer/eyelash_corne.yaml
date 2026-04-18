@@ -196,8 +196,3 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-combos:
-- p: [0, 1]
-  k: '&soft_off'
-- p: [12, 11]
-  k: '&soft_off'
