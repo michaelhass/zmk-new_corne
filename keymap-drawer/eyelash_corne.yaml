@@ -184,11 +184,11 @@ layers:
   - '&key_repeat'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB COLOR HSB(45,84,65)
+  - RGB COLOR HSB(45,73,54)
   - RGB COLOR HSB(172,57,40)
   - RGB COLOR HSB(0,0,100)
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB COLOR HSB(281,50,31)
+  - RGB COLOR HSB(138,88,38)
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -196,3 +196,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [0, 1]
+  k: '&soft_off'
+- p: [12, 11]
+  k: '&soft_off'
