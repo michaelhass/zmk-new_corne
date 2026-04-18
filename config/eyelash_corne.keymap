@@ -27,6 +27,8 @@
 
 &soft_off { hold-time-ms = <3000>; };
 
+&mt { quick-tap-ms = <150>; };
+
 / {
     behaviors {
         td0: td0 {
@@ -51,19 +53,7 @@
         tap-ms = <100>;
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        left_off {
-            bindings = <&soft_off>;
-            key-positions = <0 1>;
-        };
-
-        right_off {
-            bindings = <&soft_off>;
-            key-positions = <12 11>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
