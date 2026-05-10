@@ -176,7 +176,7 @@ layers:
   - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - '&soft_off'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
