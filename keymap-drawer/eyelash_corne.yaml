@@ -184,11 +184,11 @@ layers:
   - '&key_repeat'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB COLOR HSB(45,73,54)
-  - RGB COLOR HSB(172,57,40)
+  - RGB COLOR HSB(49,73,54)
+  - RGB COLOR HSB(172,40,35)
   - RGB COLOR HSB(0,0,100)
-  - RGB COLOR HSB(281,50,31)
-  - RGB COLOR HSB(138,88,38)
+  - RGB COLOR HSB(216,38,36)
+  - RGB COLOR HSB(155,49,31)
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
